@@ -1,0 +1,72 @@
+2021-11-07 07:26:44 IMPORT REQUIRED LIBRARIES
+2021-11-07 07:26:44 LOAD DATASET...
+2021-11-07 07:26:44 Check Head
+2021-11-07 07:26:44 Check Tail
+2021-11-07 07:26:44 Checking null values
+2021-11-07 07:26:44 Checking null values done.
+2021-11-07 07:26:44 Storing null values in reports folder
+2021-11-07 07:26:45 Storing is done.
+2021-11-07 07:26:45 ----------------------------------------------------------------------------------------------------
+2021-11-07 07:26:45 EXPLORATORY DATA ANALYSIS and VISUALIZATION
+2021-11-07 07:26:45 Count values of `workclass' columns and visualize it using bar graph
+2021-11-07 07:26:45 Using Piechart visualize the value counts in 'marital-status' with Plotly.
+2021-11-07 07:26:47 Using Piechart visualize the value counts in 'education' with Plotly.
+2021-11-07 07:26:47 Visualize the types of 'occupation' using piechart. 
+2021-11-07 07:26:47 Distribution of age using Histogram.
+2021-11-07 07:26:48 Distribution of `hours-per-week`.
+2021-11-07 07:26:48 Visualize the `fnlwgt` using displot.
+2021-11-07 07:26:49 Exploratory Data Analysis and Visualization is done.
+2021-11-07 07:26:49 ----------------------------------------------------------------------------------------------------
+2021-11-07 07:26:49 DATA_PREPROCESSING_1
+2021-11-07 07:26:49 Delete rows containing '?' values init.
+2021-11-07 07:26:49 Data_Preprocessing_1 is done.
+2021-11-07 07:26:49 ----------------------------------------------------------------------------------------------------
+2021-11-07 07:26:49 FEATURE ENGINEERING.
+2021-11-07 07:26:49 Replacing the marital-status of ['Divorced', 'Widowed','Married-spouse-absent','Never-married','Separated'] and ['Married-AF-spouse','Married-civ-spouse'] as 'Sinlge' and 'Couple' respectively. 
+2021-11-07 07:26:50 Replacing 'workclass' column with values ['Federal-gov','Local-gov','State-gov'],['Private'] ,['Self-emp-inc','Self-emp-not-inc'] and no_payment as 'govt','private' , 'self-employed' and 'without_pay' respectively.
+2021-11-07 07:26:50 Create a function that complete the above task.
+2021-11-07 07:26:50 Create a new column 'employment-type' that contains ['govt','private','self-employed','without_pay'] values in it.
+2021-11-07 07:26:51 Replacing values in 'country' column as 'US' for United states residency and 'Non-US' for Non-United States residency
+2021-11-07 07:26:51 Feature Engineering is done.
+2021-11-07 07:26:51 ----------------------------------------------------------------------------------------------------
+2021-11-07 07:26:51 DATA_PREPROCESSING_2.
+2021-11-07 07:26:51 Encoding 'salary' column as '<=50K':0, '>50K':1.
+2021-11-07 07:26:51 Encoding 'sex' column as 'Male':1, 'Female':0.
+2021-11-07 07:26:51 Encoding 'marital-status' column as 'Single':1,'Couple':0.
+2021-11-07 07:26:51 Encoding 'country' column as 'US':1,'Non-US':0.
+2021-11-07 07:26:52 Encoding 'employment-type' column as 'private':1,'govt':2,'self_employed':3,'without_pay':4.
+2021-11-07 07:26:52 data_preprocessing_2 is done.
+2021-11-07 07:26:52 ----------------------------------------------------------------------------------------------------
+2021-11-07 07:26:52 DATA_PREPROCESSING_3
+2021-11-07 07:26:52 Correlation between a binary variable and continuous variables, the point biserial correlation has been used
+2021-11-07 07:26:52 Drop 'fnlwgt' and 'marital-status' columns. These columns shows negative correlation with 'salary'.
+2021-11-07 07:26:52 Save final dataset to reports folder
+2021-11-07 07:26:52 data_preprocessing_3 is done.
+2021-11-07 07:26:52 ----------------------------------------------------------------------------------------------------
+2021-11-07 07:26:52 MODELLING
+2021-11-07 07:26:52 Store Features in 'X' variable.
+2021-11-07 07:26:52 Store Labels in 'y' variable
+2021-11-07 07:26:54 Split the dataset into training and testing.
+2021-11-07 07:26:54 Oversample the labels in dataset using SMOTE
+2021-11-07 07:26:54 Check the lenghts of the training and testing datasets.
+2021-11-07 07:26:54 Set random seed for reproducibility.
+2021-11-07 07:26:54 Initialize the model
+2021-11-07 07:26:54 Fit the training set into the model.
+2021-11-07 07:27:10 Make prediction.
+2021-11-07 07:27:10 Evaluate on test set.
+2021-11-07 07:27:10 Cross Validation
+2021-11-07 07:31:08 Save model using pickle.
+2021-11-07 07:32:18 Load saved model
+2021-11-07 07:32:21 Make prediction using loaded model.
+2021-11-07 07:34:13 Evaluation Metrics
+2021-11-07 07:34:13 Save 'model_metric' to 'reports' folder in 'json' format.
+2021-11-07 07:34:13 Modelling is done.
+2021-11-07 07:34:13 ----------------------------------------------------------------------------------------------------
+2021-11-07 07:34:13 FEATURE IMPORTANCE
+2021-11-07 07:34:14 Import final dataset.
+2021-11-07 07:34:14 Initialize the model.
+2021-11-07 07:34:14 Check features with more higher value.
+2021-11-07 07:34:14 Create a dataframe containing features and their importance.
+2021-11-07 07:34:14 Storing 'feature_importance' dataframe to 'reports' folder.
+2021-11-07 07:34:14 Storing done.
+2021-11-07 07:34:14 Feature importance is done.
