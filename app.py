@@ -1,8 +1,7 @@
 import streamlit as st
 import pickle
 
-pickle_in = open(
-    r'C:\Users\prvzs\OneDrive\Desktop\Desktop\Datasets_and_Projects\Adult_Census_Income_Prediction\saved_model\catboost.pkl', 'rb')
+pickle_in = open('saved_model\catboost.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 
 
