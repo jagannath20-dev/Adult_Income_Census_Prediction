@@ -1,0 +1,16 @@
+,Value Counts,Features
+0,0,age
+1,0,workclass
+2,0,fnlwgt
+3,0,education
+4,0,education-num
+5,0,marital-status
+6,0,occupation
+7,0,relationship
+8,0,race
+9,0,sex
+10,0,capital-gain
+11,0,capital-loss
+12,0,hours-per-week
+13,0,country
+14,0,salary
