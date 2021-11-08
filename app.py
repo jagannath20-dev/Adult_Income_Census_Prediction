@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-pickle_in = open('saved_model\catboost.pkl', 'rb')
+pickle_in = open('catboost.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 
 
