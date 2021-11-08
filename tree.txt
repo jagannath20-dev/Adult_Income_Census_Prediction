@@ -1,0 +1,48 @@
+Folder PATH listing for volume OS
+Volume serial number is D68C-5DC3
+C:.
+|   app.py
+|   catboost.pkl
+|   Procfile
+|   requirements.txt
+|   Resultant.txt
+|   setup.sh
+|   
++---catboost_info
+|   |   catboost_training.json
+|   |   learn_error.tsv
+|   |   test_error.tsv
+|   |   time_left.tsv
+|   |   
+|   +---learn
+|   |       events.out.tfevents
+|   |       
+|   +---test
+|   |       events.out.tfevents
+|   |       
+|   \---tmp
++---Dataset
+|       adult.csv
+|       __init__.py
+|       
++---logs
+|       logs.txt
+|       __init__.py
+|       
++---notebooks
+|       data_preprocessing_1.py
+|       data_preprocessing_2.py
+|       data_preprocessing_3.py
+|       eda_and_visualization.ipynb
+|       feature_engineering.py
+|       feature_importance.py
+|       model.py
+|       __init__.py
+|       
+\---reports
+        feature_importance.csv
+        final_dataset.csv
+        metric.json
+        missing_value.csv
+        __init__.py
+        
