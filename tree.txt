@@ -5,7 +5,7 @@ C:.
 |   catboost.pkl
 |   Procfile
 |   requirements.txt
-|   Resultant.txt
+|   tree.txt
 |   setup.sh
 |   
 +---catboost_info
