@@ -37,8 +37,12 @@ The dataset contains 15 columns and 32000+ rows.
 ## 🌲 Project Tree
 ```
 C:.
-|   info of folders.txt
-|   project_tree.txt
+|   app.py
+|   catboost.pkl
+|   Procfile
+|   requirements.txt
+|   tree.txt
+|   setup.sh
 |   
 +---catboost_info
 |   |   catboost_training.json
@@ -55,9 +59,11 @@ C:.
 |   \---tmp
 +---Dataset
 |       adult.csv
+|       __init__.py
 |       
 +---logs
 |       logs.txt
+|       __init__.py
 |       
 +---notebooks
 |       data_preprocessing_1.py
@@ -67,18 +73,15 @@ C:.
 |       feature_engineering.py
 |       feature_importance.py
 |       model.py
+|       __init__.py
 |       
-+---reports
-|       feature_importance.csv
-|       final_dataset.csv
-|       metric.json
-|       missing_value.csv
-|       
-+---saved_model
-|       catboost.pkl
-|       
-\---streamlit
-        app.py
+\---reports
+        feature_importance.csv
+        final_dataset.csv
+        metric.json
+        missing_value.csv
+        __init__.py
+        
 
 
 ```
