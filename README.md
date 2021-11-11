@@ -94,3 +94,4 @@ Heroku app : https://adultincomecensusprediction.herokuapp.com/
 
 * [Low Level Document](https://docs.google.com/document/d/1KHWTLc4PxIS1sLbTDzVqHoTuPiQ8E7RROBhcHN59QmI/edit?usp=sharing) 
 * [High Level Document](https://docs.google.com/document/d/1xqPXlFPq7SO585L6SDi70onvR6sWTS_u3k5YiBpwZSw/edit?usp=sharing)
+* [Architecture](https://docs.google.com/document/d/1sR6sR8XdLQEjRRs0p-7jSfDM5bpn99e7iwRcBAvKrJE/edit?usp=sharing)
