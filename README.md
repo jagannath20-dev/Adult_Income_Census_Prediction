@@ -89,3 +89,7 @@ C:.
 ## App
 
 Heroku app : https://adultincomecensusprediction.herokuapp.com/
+
+## Documnents
+
+* [Low Level Document](https://docs.google.com/document/d/1KHWTLc4PxIS1sLbTDzVqHoTuPiQ8E7RROBhcHN59QmI/edit?usp=sharing) 
