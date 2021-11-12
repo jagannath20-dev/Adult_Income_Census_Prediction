@@ -85,15 +85,15 @@ C:.
 
 
 ```
-## Tools Used
+## ⚒️ Tools Used
 ![tools](https://user-images.githubusercontent.com/66157611/141407554-a6069329-6e50-472a-a1df-faf7d3632ca2.png)
 
 
-## App
+## 🌟 App
 
 Heroku app : https://adultincomecensusprediction.herokuapp.com/
 
-## Documents
+## 📚 Documents
 
 * [Low Level Document](https://docs.google.com/document/d/1KHWTLc4PxIS1sLbTDzVqHoTuPiQ8E7RROBhcHN59QmI/edit?usp=sharing) 
 * [High Level Document](https://docs.google.com/document/d/1xqPXlFPq7SO585L6SDi70onvR6sWTS_u3k5YiBpwZSw/edit?usp=sharing)
