@@ -85,6 +85,9 @@ C:.
 
 
 ```
+## Tools Used
+![tools](https://user-images.githubusercontent.com/66157611/141407554-a6069329-6e50-472a-a1df-faf7d3632ca2.png)
+
 
 ## App
 
@@ -95,3 +98,4 @@ Heroku app : https://adultincomecensusprediction.herokuapp.com/
 * [Low Level Document](https://docs.google.com/document/d/1KHWTLc4PxIS1sLbTDzVqHoTuPiQ8E7RROBhcHN59QmI/edit?usp=sharing) 
 * [High Level Document](https://docs.google.com/document/d/1xqPXlFPq7SO585L6SDi70onvR6sWTS_u3k5YiBpwZSw/edit?usp=sharing)
 * [Architecture](https://docs.google.com/document/d/1sR6sR8XdLQEjRRs0p-7jSfDM5bpn99e7iwRcBAvKrJE/edit?usp=sharing)
+* [Wire-Frame](https://docs.google.com/document/d/1knr34dMbRXUsFhEoDDnK33nCeOLYiecQyJPUwtAKk4U/edit?usp=sharing)
