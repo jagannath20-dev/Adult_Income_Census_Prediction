@@ -95,10 +95,4 @@ Heroku app : https://adultincomecensusprediction.herokuapp.com/
 
 Docker Link : https://hub.docker.com/repository/docker/parvezsohail/adult_income
 
-## 📚 Documents
 
-* [Low Level Document](https://docs.google.com/document/d/1KHWTLc4PxIS1sLbTDzVqHoTuPiQ8E7RROBhcHN59QmI/edit?usp=sharing) 
-* [High Level Document](https://docs.google.com/document/d/1xqPXlFPq7SO585L6SDi70onvR6sWTS_u3k5YiBpwZSw/edit?usp=sharing)
-* [Architecture](https://docs.google.com/document/d/1sR6sR8XdLQEjRRs0p-7jSfDM5bpn99e7iwRcBAvKrJE/edit?usp=sharing)
-* [Wire-Frame](https://docs.google.com/document/d/1knr34dMbRXUsFhEoDDnK33nCeOLYiecQyJPUwtAKk4U/edit?usp=sharing)
-* [Project Report](https://docs.google.com/presentation/d/1EVppowHrIWFzP8V7214pKj7yKKEq5BVkrsNWlMzA_G4/edit?usp=sharing)
