@@ -8,10 +8,11 @@ classifier = pickle.load(pickle_in)
 def main():
 
     html_temp =  """
-    <div style="background-color:#464e5f;padding:10px;border-radius:10px">
-    <h1 style="color:white;text-align:center;">Adult Income Census Prediction </h1>
-    </div>
-    """
+                <div style="background-color:tomato;padding:10px">
+                <h2 style="color:white;text-align:center;">Adult Income Census Prediction</h2>
+                </div
+
+                """
 
     st.markdown(html_temp, unsafe_allow_html=True)
 
