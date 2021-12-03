@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import logging
 import scipy.stats as stats
-from sklearn.preprocessing import MinMaxScaler
 
 logging.basicConfig(filename='logs/model_development.txt',
                     filemode='a',
@@ -14,20 +13,19 @@ logging.basicConfig(filename='logs/model_development.txt',
 data = pd.read_csv('Dataset\adult.csv')
 
 # Drop columns
-data.drop(['workclass', 'education', 'education-num', 'occupation',
-           'relationship', 'race'], axis=1, inplace=True)
+data.drop(['workclass', 'education', 'education-num',
+           'occupation','relationship', 'race'], 
+            axis=1, inplace=True)
 
 logging.warning('-'*100)
 logging.warning('DATA_PREPROCESSING_3')
 
-logging.warning(
-    'Correlation between a binary variable and continuous variables, the point biserial correlation has been used')
+logging.warning('Correlation between a binary variable and continuous variables, the point biserial correlation has been used')
 
 for i in data.columns:
     print(i, ':', stats.pointbiserialr(data['salary'], data[i])[0])
 
-logging.warning(
-    "Drop 'fnlwgt' and 'marital-status' columns. These columns shows negative correlation with 'salary'.")
+logging.warning("Drop 'fnlwgt' and 'marital-status' columns. These columns shows negative correlation with 'salary'.")
 
 data.drop(['fnlwgt', 'marital-status'], axis=1, inplace=True)
 
