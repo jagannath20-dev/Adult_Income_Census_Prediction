@@ -22,8 +22,7 @@ for feature in zip(data.columns, catboostclassifier.feature_importances_):
     print(feature)
 
 logging.warning('Create a dataframe containing features and their importance.')
-feature_dict = dict(zip(data.columns, list(
-    catboostclassifier.feature_importances_)))
+feature_dict = dict(zip(data.columns, list(catboostclassifier.feature_importances_)))
 feature_df = pd.DataFrame(feature_dict, index=['Importance']).T
 
 logging.warning("Storing 'feature_importance' dataframe to 'reports' folder.")
