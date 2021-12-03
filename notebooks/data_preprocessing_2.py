@@ -21,15 +21,12 @@ logging.warning("Encoding 'sex' column as 'Male':1, 'Female':0.")
 data['sex'].replace({'Male': 1, 'Female': 0}, inplace=True, regex=True)
 
 logging.warning("Encoding 'marital-status' column as 'Single':1,'Couple':0.")
-data['marital-status'].replace({'Single': 1,
-                                'Couple': 0}, inplace=True, regex=True)
+data['marital-status'].replace({'Single': 1,'Couple': 0}, inplace=True, regex=True)
 
 logging.warning("Encoding 'country' column as 'US':1,'Non-US':0.")
 data['country'].replace({'US': 1, 'Non-US': 0}, inplace=True, regex=True)
 
-logging.warning(
-    "Encoding 'employment-type' column as 'private':1,'govt':2,'self_employed':3,'without_pay':4.")
-data['employment-type'].replace({'private': 1, 'govt': 2,
-                                 'self_employed': 3, 'without_pay': 4}, inplace=True, regex=True)
+logging.warning("Encoding 'employment-type' column as 'private':1,'govt':2,'self_employed':3,'without_pay':4.")
+data['employment-type'].replace({'private': 1, 'govt': 2,'self_employed': 3, 'without_pay': 4}, inplace=True, regex=True)
 
 logging.warning('data_preprocessing_2 is done.')
