@@ -1,10 +1,12 @@
+# Import Libraries
 import streamlit as st
 import pickle
 
+# Load saved model
 pickle_in = open('catboost.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 
-
+# create a function
 def main():
 
     html_temp =  """
