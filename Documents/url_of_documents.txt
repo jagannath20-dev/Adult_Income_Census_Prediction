@@ -1,0 +1,8 @@
+Detailed Project Report: https://docs.google.com/presentation/d/1EVppowHrIWFzP8V7214pKj7yKKEq5BVkrsNWlMzA_G4/edit?usp=sharing
+WireFrame: https://docs.google.com/document/d/1knr34dMbRXUsFhEoDDnK33nCeOLYiecQyJPUwtAKk4U/edit?usp=sharing
+High-Level Document : https://docs.google.com/document/d/1xqPXlFPq7SO585L6SDi70onvR6sWTS_u3k5YiBpwZSw/edit?usp=sharing
+Architecture : https://docs.google.com/document/d/1sR6sR8XdLQEjRRs0p-7jSfDM5bpn99e7iwRcBAvKrJE/edit?usp=sharing
+Low-Level-Document : https://docs.google.com/document/d/1KHWTLc4PxIS1sLbTDzVqHoTuPiQ8E7RROBhcHN59QmI/edit?usp=sharing
+Linkedin Post : https://www.linkedin.com/feed/update/urn:li:activity:6865544814516146176/
+Demo Video : https://www.youtube.com/watch?v=sZa7d6hhSrE&t=2s
+Project Code : https://github.com/Parvez13/Adult_Income_Census_Prediction
